@@ -1,0 +1,50 @@
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th,
+tbody th {
+  color: #fff;
+}
+
+tbody td {
+  font-weight: 500;
+  color: rgba(255,255,255,.65);
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.container {
+    position: relative;
+}
+
+.productForm {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    background-color: #363F42; 
+    border-radius: 100px;
+}
+
+.searchBox {
+    color: rgba(0,0,0,.25); 
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.productForm .row input {
+    border-radius: 50px;
+}
+
